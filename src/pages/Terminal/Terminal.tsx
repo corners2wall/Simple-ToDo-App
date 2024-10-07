@@ -5,7 +5,7 @@ import Terminal from '../../screens/Terminal';
 import Navigation from '../../components/Navigation';
 import PreviewAnimation from '../../screens/PreviewAnimation';
 
-export default function Home() {
+export default function TerminalPage() {
   return (
     <div className='min-h-screen flex flex-col bg-black'>
       <Navigation />
