@@ -1,10 +1,10 @@
 import { Variants, motion } from 'framer-motion';
-import getImageUrl from '../../utils/getImageUrl';
+import { getSomefolkImageUrl } from '../../utils/getImageUrl';
 import Text from '../Text';
 
-const barcode = getImageUrl('barcode', 'svg');
-const founded = getImageUrl('founded', 'svg');
-const address = getImageUrl('address', 'svg');
+const barcode = getSomefolkImageUrl('barcode', 'svg');
+const founded = getSomefolkImageUrl('founded', 'svg');
+const address = getSomefolkImageUrl('address', 'svg');
 
 const offsetHover: Variants = {
   hover: {

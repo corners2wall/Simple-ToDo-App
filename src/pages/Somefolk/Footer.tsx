@@ -31,12 +31,12 @@ export default function Footer() {
         </div>
         <div className='relative'>
           <div
-            className={`absolute -top-[45vh] bg-[url('svg/flower.svg')] w-[40vh] h-[45vh] bg-no-repeat bg-contain bg-bottom`}
+            className={`absolute -top-[45vh] bg-[url('somefolk/flower.svg')] w-[40vh] h-[45vh] bg-no-repeat bg-contain bg-bottom`}
           />
         </div>
         <div className='flex flex-col items-center uppercase'>
           <div
-            className={`bg-[url('svg/logo.svg')] w-[15vh] h-[15vh] bg-no-repeat bg-contain bg-bottom mb-4`}
+            className={`bg-[url('somefolk/logo.svg')] w-[15vh] h-[15vh] bg-no-repeat bg-contain bg-bottom mb-4`}
           />
           <Text variant='small-bold' as='h6'>
             © somefolk® 2024

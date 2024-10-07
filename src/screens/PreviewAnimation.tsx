@@ -3,9 +3,9 @@ import { useEffect, PropsWithChildren } from 'react';
 import { ReactNode } from 'react';
 import { useSubscribe } from '../utils/EventBus';
 import { HOVER_NAVIGATION } from '../utils/chanelName';
-import getImageUrl from '../utils/getImageUrl';
+import { getTerminalImageUrl } from '../utils/getImageUrl';
 
-const peopleAnimationSrc = getImageUrl('peopleAnimation', 'gif');
+const peopleAnimation = getTerminalImageUrl('peopleAnimation', 'gif');
 
 const rowAnimation: Variants = {
   animate: (i) => ({
@@ -162,7 +162,7 @@ export default function PreviewAnimation({ children }: PropsWithChildren) {
       <AnimateRow>
         <AnimationSpacer>
           <AnimateItem visibleDelay={2.5}>
-            <img src={peopleAnimationSrc} className='w-1/2' />
+            <img src={peopleAnimation} className='w-1/2' />
           </AnimateItem>
           <AnimateItem visibleDelay={0.45}>T </AnimateItem>
         </AnimationSpacer>

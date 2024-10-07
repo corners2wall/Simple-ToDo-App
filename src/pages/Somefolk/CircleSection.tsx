@@ -1,22 +1,16 @@
-import Lenis from '@studio-freight/lenis';
 import Text from '../../components/Text';
-import useScroll from '../../hooks/useScroll';
-import useWindowSize from '../../hooks/useWindowSize';
-import { clamp, mapRange } from '../../utils/math';
-import { useRef } from 'react';
-import { useRect } from '@studio-freight/hamo';
 import {
   BaseScrollable as Scrollable,
   ScrollConfiguration,
 } from '../../components/Scrollable/Scrollable';
 
 const circleParts = [
-  { path: 'svg/wheel1.svg', spin: -0.45 },
-  { path: 'svg/wheel2.svg', spin: 0.34 },
-  { path: 'svg/wheel3.svg', spin: -0.5 },
-  { path: 'svg/wheel4.svg', spin: 1 },
-  { path: 'svg/wheel5.svg', spin: 0.25 },
-  { path: 'svg/wheel6.svg', spin: -0.51 },
+  { path: 'somefolk/wheel1.svg', spin: -0.45 },
+  { path: 'somefolk/wheel2.svg', spin: 0.34 },
+  { path: 'somefolk/wheel3.svg', spin: -0.5 },
+  { path: 'somefolk/wheel4.svg', spin: 1 },
+  { path: 'somefolk/wheel5.svg', spin: 0.25 },
+  { path: 'somefolk/wheel6.svg', spin: -0.51 },
 ];
 
 const offsetCSS = '--circleXOffset';
@@ -75,7 +69,7 @@ export default function CircleSection() {
               configuration={image1ScrollConfiguration}
             >
               <img
-                src='images/pinkFlex.jpg'
+                src='somefolk/pinkFlex.jpg'
                 className='absolute top-0 h-[120%] bg-no-repeat bg-cover'
                 style={{ transform: `translateY(var(${offsetImage1}))` }}
               />
@@ -108,7 +102,7 @@ export default function CircleSection() {
               configuration={image2ScrollConfiguration}
             >
               <img
-                src='images/monkey.jpg'
+                src='somefolk/monkey.jpg'
                 className='absolute top-0 h-[120%] bg-no-repeat bg-cover'
                 style={{ transform: `translateY(var(${offsetImage2}))` }}
               />

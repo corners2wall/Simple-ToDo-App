@@ -2,9 +2,9 @@ import { useState } from 'react';
 import OverlayLayer from '../../components/OverlayLayer';
 import Tile from '../../components/Tile';
 import VolumetricText from '../../components/VolumetricText';
-import getImageUrl from '../../utils/getImageUrl';
+import { getSomefolkImageUrl } from '../../utils/getImageUrl';
 
-const tileImage = getImageUrl('background', 'jpg');
+const tileImage = getSomefolkImageUrl('background', 'jpg');
 
 export default function PreviewSection() {
   const [isModelsLoaded, setIsModelsLoaded] = useState(false);

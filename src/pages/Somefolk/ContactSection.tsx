@@ -52,7 +52,7 @@ export default function ContactSection() {
         configuration={imageScrollConfiguration}
       >
         <img
-          src='images/gang.jpg'
+          src='somefolk/gang.jpg'
           className='w-full h-[120%] object-cover'
           style={{ transform: `translateY(var(${offsetImage}))` }}
         />

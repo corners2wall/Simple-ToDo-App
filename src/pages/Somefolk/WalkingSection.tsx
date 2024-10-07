@@ -58,25 +58,25 @@ export default function WalkingSection() {
       <Scrollable className='flex' configuration={scroll}>
         <div className='flex flex-col w-[20vw] translate-x-12 translate-y-12 relative'>
           <div className='absolute -left-3 -bottom-14 w-1/3 h-1/3'>
-            <img src='world.svg' className='w-full h-full' />
+            <img src='somefolk/world.svg' className='w-full h-full' />
           </div>
           <div
             className='relative  rounded-md overflow-hidden pt-[125%]'
             style={{ transform: `translateY(var(${offsetY})) rotate(-16deg)` }}
           >
             <div className='absolute h-full w-full top-0 left-0'>
-              <img src='images/leo.jpg' className='w-full h-full object-cover grayscale-[50%]' />
+              <img src='somefolk/leo.jpg' className='w-full h-full object-cover grayscale-[50%]' />
             </div>
           </div>
         </div>
         <div className='flex flex-col w-[20vw] -translate-y-32 '>
           <div className='absolute -right-24 -bottom-56 w-full h-full'>
-            <img src='address.svg' className='w-full h-full' />
+            <img src='somefolk/address.svg' className='w-full h-full' />
           </div>
           <div className='relative rounded-md overflow-hidden pt-[125%]'>
             <div className='absolute top-0 left-0 h-full w-full'>
               <img
-                src='images/forest.avif'
+                src='somefolk/forest.avif'
                 className='w-full h-full object-cover grayscale-[50%]'
               />
             </div>
@@ -84,14 +84,14 @@ export default function WalkingSection() {
         </div>
         <div className='flex flex-col w-[20vw] relative'>
           <div className='absolute -right-14 -top-20 w-1/2 h-1/2'>
-            <img src='founded.svg' className='w-full h-full' />
+            <img src='somefolk/founded.svg' className='w-full h-full' />
           </div>
           <div
             className='relative rounded-md overflow-hidden pt-[125%]'
             style={{ transform: `translateY(var(${offsetY})) rotate(12deg)` }}
           >
             <div className='absolute top-0 left-0 h-full w-full grayscale-[50%]'>
-              <img src='images/monkey.jpg' className='w-full h-full object-cover' />
+              <img src='somefolk/monkey.jpg' className='w-full h-full object-cover' />
             </div>
           </div>
         </div>

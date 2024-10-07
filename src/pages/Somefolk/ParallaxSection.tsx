@@ -5,9 +5,6 @@ import {
   BaseScrollable as Scrollable,
 } from '../../components/Scrollable/Scrollable';
 
-/// shadow opacity = 0.65 -> 0.95
-/// image translateY => -20 -> 0
-
 const imageTranslate = '--imageTranslate';
 
 const opacity = '--opacity';
@@ -35,7 +32,7 @@ export default function ParallaxSection() {
     >
       <div className='absolute h-[115%] w-[115%]'>
         <img
-          src='images/greenFlex.jpg'
+          src='somefolk/greenFlex.jpg'
           className='w-full h-full object-cover'
           style={{ transform: `translateY(var(${imageTranslate}))` }}
         />
@@ -61,14 +58,14 @@ export default function ParallaxSection() {
         <div className='flex w-10/12 justify-between mb-80'>
           <motion.div className='flex flex-col relative'>
             <motion.img
-              src='svg/SCoin.svg'
+              src='somefolk/SCoin.svg'
               custom={1}
               variants={headsVariant}
               initial='initial'
               animate='animate'
             />
             <motion.img
-              src='svg/FCoin.svg'
+              src='somefolk/FCoin.svg'
               custom={0}
               className='absolute'
               variants={tailsVariant}
